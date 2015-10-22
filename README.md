@@ -1,2 +1,8 @@
 # CENTRIST
 Detecção de formas humanas em cenas aéreas de desastres
+
+The detection and recognition of human shapes have been an ​​intense area of research, with several applications, such as human motion detection, surveillance systems, smart homes, and based on the proposal of this study, the detection and recognition of people in post-disaster situations. There are several successful algorithms for this task near to the state of art, such as the Histograms of Oriented Gradients (HOG) and Local Binary Pattern (LBP). However, these algorithms have at least two important questions that require attention in real time practical applications: the processing speed and the human shape detection in adverse situations of positioning, direction, rotation and occlusion of body. The patterns’ descriptor CENTRIST was applied in this word, to describe general situations. Moreover, to detect  human shape contour and body parts. The human body full detection is made through the Support Vector Machine (Linear and HIK kernels) classifier in cascade. Tests were also made with the Adaboost classifier instead of the Support Vector Machine (HIK). The detect human body parts (heads, arms and legs) the following classifiers were applied: Support Vector Machine (Linear), Decision tree e Neural Network. The final decision-making, this is, if such a part belong to a human body, is made through a Bayesian Network. The results of this work show the potential of human bodies’ detection in general situations of disaster.   
+
+Keywords: CENTRIST, Support Vector Machine, Decision Tree, Neural Network, Bayesian Network.
+
+ Esta é uma versão1.0 do programa de detecção de formas humanas em cenas aéreas de desastres. O mesmo foi desenvolvido  no Linux-Ubuntu  em C++.
